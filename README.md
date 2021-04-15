@@ -1,7 +1,7 @@
-# projectileMotionComputerProgram
- In this project, a projectile motion computer program is built using Python 3. The program requires 3 inputs and it finds the other points of the parabola with a close approximation using the background calculations. For drawing a parabola, 3 points are needed. That’s why, the program asks the user to enter the initial height of the object, the maximum height of the object, and the range. With the input values and the calculated points, the program draws the projectile motion graph of an object and using the kinematic formulas, it finds the unknown parameters.
+# Projectile Motion Computer Program
+In this project, a projectile motion computer program is built using Python 3. The program requires 3 inputs and it finds the other points of the parabola with a close approximation using the background calculations. For drawing a parabola, 3 points are needed. That’s why, the program asks the user to enter the initial height of the object, the maximum height of the object, and the range. With the input values and the calculated points, the program draws the projectile motion graph of an object and using the kinematic formulas, it finds the unknown parameters.
 
-##**Projectile Motion Equations**
+## Projectile Motion Equations
 To find the unknown parameters related to projectile motion, certain equations of motion are used. With knowing at least three points, all the other unknowns can be found using the kinematics formulas. 
 These equations are:
 *𝑣f=𝑣0+a𝑡
@@ -11,7 +11,7 @@ These equations are:
 𝑣f2=𝑣02+2aΔy*
 
 
-##**How?**
+## How?
 The program first asks four questions to the user. These questions are:
 *“Enter the initial height(in meters):”*
 *“Enter the maximum height(in meters):”*
@@ -30,7 +30,7 @@ Time to Reach Max. Height (th)*
 The program prints the found values. Meanwhile, the Height vs Range graph is generated. The user can zoom in and out. The graph can be saved as a png file, and as the mouse arrow goes through the graph, each coordinate on the graph is shown. In figure 5/6, an example output can be seen.
 
 
-##**Code.**
+## Code.
 The code is written in Python.  Functions for calculating the points are defined. When the input is entered, the program calculates the other points on the graph with the function “ap,bp,cp,a1,b1,c1=calc_parabola_vertex(x1, y1, x2, y2, x3, y3)” using the equation y=ax^2+bx+c. After the x and v values are defined, the unknown variables of projectile motion is found with several functions such as: 
 
 *teta=math.atan(bp)*180/pi;
