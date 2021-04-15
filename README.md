@@ -4,11 +4,15 @@ In this project, a projectile motion computer program is built using Python 3. T
 ## Projectile Motion Equations
 To find the unknown parameters related to projectile motion, certain equations of motion are used. With knowing at least three points, all the other unknowns can be found using the kinematics formulas. 
 These equations are:
-*𝑣f=𝑣0+a𝑡
-Δx=𝑣0𝑡+1/2a𝑡2
-Δy=𝑣0𝑡+1/2a𝑡2
-𝑣f2=𝑣02+2aΔx
-𝑣f2=𝑣02+2aΔy*
+
+    *𝑣f=𝑣0+a𝑡
+    Δx=𝑣0𝑡+1/2a𝑡2
+    Δy=𝑣0𝑡+1/2a𝑡2
+    𝑣f2=𝑣02+2aΔx
+    𝑣f2=𝑣02+2aΔy*
+
+   
+
 
 
 ## How?
@@ -18,6 +22,7 @@ The program first asks four questions to the user. These questions are:
 *“Enter the final height(in meters):”*
 *“Enter the range(in meters):”*
 Next, the program calculates the unknown projectile motion variables using the kinematics formulas. The calculated values are:
+  
 *Launch Angle (α0)
 Flight Duration (t)
 Initial Vertical Velocity (V0y)
